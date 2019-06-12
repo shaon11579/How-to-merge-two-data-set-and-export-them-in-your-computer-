@@ -5,7 +5,7 @@ R_Data merge
 # First install this packages 
 install.packages("plyr")
 library("plyr")
-# merge two datset 
+# merge two dataset 
 mydata_final <- merge( mydata4, mydataIG, by= "FCST_1_ID")
 
 # Now export this data in your working directory/ Desktop for future use 
